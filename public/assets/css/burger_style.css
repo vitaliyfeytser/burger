@@ -1,19 +1,47 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
 }
 
-.label {
-  font-weight: bold;
+#page {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+#top {
+  align-items: center;
+  text-align: center;
 }
 
-.form-group {
-  margin-bottom: 5px;
+#menu {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#whole {
+  display: flex;
+  flex-flow: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+#devoured {
+  margin-left: 3em;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+#burger {
+  padding: 1em;
+  background: #fdce91;
+  list-style-type: none;
+}
+
+#add-burger {
+  align-content: center;
+  text-align: center;
 }
