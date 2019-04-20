@@ -1,8 +1,8 @@
-INSERT INTO burgers (burger_name) VALUES ("Hawaiian Burger");
-INSERT INTO burgers (burger_name, devoured) VALUES ("Texas BBQ Burger", true);
-INSERT INTO burgers (burger_name, devoured) VALUES ("Sloppy Joe Burger", true);
-INSERT INTO burgers (burger_name, devoured) VALUES ("Grassy Messy", true);
-INSERT INTO burgers (burger_name) VALUES ("Big Texas Burger");
-INSERT INTO burgers (burger_name) VALUES ("Santa Fe Melted Burger");
+INSERT INTO burgers (burger_name, createdAt) VALUES ("Hawaiian Burger", CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, devoured, createdAt) VALUES ("Texas BBQ Burger", true, CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, devoured, createdAt) VALUES ("Sloppy Joe Burger", true, CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, devoured, createdAt) VALUES ("Grassy Messy", true, CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, createdAt) VALUES ("Big Texas Burger", CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, createdAt) VALUES ("Santa Fe Melted Burger", CURRENT_TIMESTAMP);
 
 SELECT * FROM burgers;
