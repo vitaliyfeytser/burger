@@ -1,4 +1,4 @@
-* **EAT-DA-BURGER**
+**EAT-DA-BURGER**
 
   * Handlebar + SQL App
 
